@@ -8,7 +8,7 @@ CREATE TABLE `departamento` (
 CREATE TABLE `funcionario` (
     `matricula`       INT(11)      NOT NULL,
     `nome`            VARCHAR(100) NOT NULL,
-    `salario`         DECIMAL(10,2) NOT NULL,
+    `salario`         DECIMAL(10)  NOT NULL,
     `gerente`         INT(11)      DEFAULT NULL,
     `departamento`    INT(11)      NOT NULL,
     PRIMARY KEY (`matricula`),
